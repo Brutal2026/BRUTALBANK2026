@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 
 const categories = [
 
-  { name: 'Crossfit', image: crossfitImg, color: 'bg-blue-500' },
+  
   { name: 'Ciclismo', image: ciclismoImg, color: 'bg-orange-500' },
   { name: 'Beach Tennis', image: beachTennisImg, color: 'bg-green-500' },
   { name: 'Futsal', image: futebolImg, color: 'bg-teal-500' },
