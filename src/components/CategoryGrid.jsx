@@ -1,17 +1,9 @@
 import { Button } from '@/components/ui/button'
-import futebolImg from '../assets/futebol.jpg'
-import crossfitImg from '../assets/crossfit.jpg'
-import ciclismoImg from '../assets/ciclismo.jpg'
-import beachTennisImg from '../assets/beach-tennis.jpg'
-import corridaImg from '../assets/corrida.jpg'
-import natacaoImg from '../assets/natacao.jpg'
-import voleiImg from '../assets/volei.jpg'
-import basqueteImg from '../assets/basquete.jpg'
-import surfImg from '../assets/surf.jpg'
-import jiuJitsuImg from '../assets/jiu-jitsu.jpg'
+
+
 
 const categories = [
-  { name: 'Futebol', image: futebolImg, color: 'bg-red-500' },
+
   { name: 'Crossfit', image: crossfitImg, color: 'bg-blue-500' },
   { name: 'Ciclismo', image: ciclismoImg, color: 'bg-orange-500' },
   { name: 'Beach Tennis', image: beachTennisImg, color: 'bg-green-500' },
