@@ -1,7 +1,5 @@
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import logo from '../assets/logo.jpg'//... outras linhas de código ...
-{/* <img src={logo} alt="Logo" className="h-8" /> */}
 
 const Footer = () => {
   return (
