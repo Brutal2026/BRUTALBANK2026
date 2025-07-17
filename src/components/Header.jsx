@@ -8,21 +8,16 @@ import {
   Bars3Icon,
   XMarkIcon
 } from '@heroicons/react/24/outline'
-import logo from '../assets/logo.jpg'
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-
-  return (
+    return (
     <header className="bg-white shadow-sm border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo e Nome */}
-          <div className="flex items-center space-x-3">
-            <img 
-              src={logo} 
-              alt="Brutal Bank Imagem Logo" 
-              className="h-10 w-10 rounded-lg object-cover"
+         <div className="flex items-center space-x-3">
+            className="h-10 w-10 rounded-lg object-cover"
             />
             <h1 className="text-xl font-bold text-gray-900 hidden sm:block">
               BRUTAL BANK IMAGEM
