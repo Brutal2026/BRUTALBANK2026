@@ -37,12 +37,7 @@ const PhotoCard = ({ photo }) => {
       onMouseLeave={() => setIsHovered(false)}
       onClick={handleViewPhoto}
     >
-      {/* Imagem */}
-      <div className="relative aspect-square overflow-hidden">
-        <img
-          src={photo.image}
-          alt={photo.title}
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+      
         />
         
         {/* Overlay com ações */}

@@ -11,7 +11,7 @@ const FeaturedPhotos = () => {
       photographer: 'João Silva',
       state: 'RJ',
       price: 25.00,
-      image: '/src/assets/futebol.jpg',
+      
       tags: ['futebol', 'gol', 'maracana', 'brasil'],
       date: '2024-01-15'
     },
@@ -22,7 +22,7 @@ const FeaturedPhotos = () => {
       photographer: 'Maria Santos',
       state: 'SP',
       price: 20.00,
-      image: '/src/assets/crossfit.jpg',
+      
       tags: ['crossfit', 'treino', 'fitness', 'academia'],
       date: '2024-01-14'
     },
@@ -33,7 +33,7 @@ const FeaturedPhotos = () => {
       photographer: 'Pedro Costa',
       state: 'MG',
       price: 30.00,
-      image: '/src/assets/ciclismo.jpg',
+      
       tags: ['ciclismo', 'competicao', 'bicicleta', 'esporte'],
       date: '2024-01-13'
     },
@@ -44,7 +44,7 @@ const FeaturedPhotos = () => {
       photographer: 'Ana Lima',
       state: 'RJ',
       price: 22.00,
-      image: '/src/assets/beach-tennis.jpg',
+      
       tags: ['beach tennis', 'praia', 'areia', 'esporte'],
       date: '2024-01-12'
     }

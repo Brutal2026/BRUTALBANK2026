@@ -5,21 +5,7 @@ import { Button } from '@/components/ui/button'
 const categories = [
 
   
-  { name: 'Ciclismo', image: ciclismoImg, color: 'bg-orange-500' },
-  { name: 'Beach Tennis', image: beachTennisImg, color: 'bg-green-500' },
-  { name: 'Futsal', image: futebolImg, color: 'bg-teal-500' },
-  { name: 'Corrida', image: corridaImg, color: 'bg-blue-600' },
-  { name: 'Natação', image: natacaoImg, color: 'bg-cyan-500' },
-  { name: 'Vôlei', image: voleiImg, color: 'bg-purple-500' },
-  { name: 'Futevôlei', image: voleiImg, color: 'bg-teal-600' },
-  { name: 'Eventos', image: futebolImg, color: 'bg-pink-500' },
-  { name: 'Basquete', image: basqueteImg, color: 'bg-blue-700' },
-  { name: 'Artes Marciais', image: jiuJitsuImg, color: 'bg-red-600' },
-  { name: 'Surf', image: surfImg, color: 'bg-yellow-500' },
-  { name: 'Motociclismo', image: ciclismoImg, color: 'bg-red-700' },
-  { name: 'Formaturas', image: futebolImg, color: 'bg-yellow-600' },
-  { name: 'Jiu-jítsu', image: jiuJitsuImg, color: 'bg-red-800' }
-]
+  
 
 const CategoryGrid = () => {
   return (
@@ -38,10 +24,7 @@ const CategoryGrid = () => {
               key={index}
               className="relative group cursor-pointer rounded-lg overflow-hidden aspect-square"
             >
-              <img
-                src={category.image}
-                alt={category.name}
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                 <h3 className="text-white font-semibold text-sm md:text-base text-center px-2">
